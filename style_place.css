@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+html {
+    background: url(background.jpg);
+ }
+header{
+    width:1280px;
+    height:100px;
+    background-image:url(sea.jpg);
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+}
+
+.header-text{
+    float:left;
+    font-family: 'Noto Serif JP', sans-serif;
+    padding-left:15px;
+    margin-top:10px;
+}
+.header-text h1{
+    font-size:40px;
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: center;
+}
+.header-text h2{
+    font-size:15px;
+    margin-top:0px;
+}
+
+.header-contents {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.header-contents a{
+    font-size:20px;
+    text-decoration: none;
+    padding:30px 10px;
+    margin:10px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color:#360fc2;
+}           
+
+
+
+body{
+    margin:0;
+}
+
+
+
+.contents h1 {
+    border-bottom: solid 3px skyblue;
+    position: relative;
+    width:850px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Noto Serif JP', sans-serif;
+
+}
+.contents h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #ffc778;
+    bottom: -3px;
+    width: 30%;
+}
+.map{
+    display:flex;
+    justify-content: center;
+}
+.map iframe{
+
+    margin-right:50px;
+}
+.map-text{
+    display: block;
+    margin:1px;
+}
+.questionare{
+margin-bottom:100px;
+}
+.questionare h1{
+margin-left:205px;
+margin-top:80px;
+}
+.question-info{
+margin-right:50px;
+
+}
+.question-info p{
+    margin-bottom:0px;
+    font-family: 'Noto Serif JP', sans-serif;
+
+}
+.question-message{
+    margin-left:50px;
+    display:flex;
+    flex-direction: column;
+}
+.question-message h2{
+    margin-bottom:0px;
+    font-family: 'Noto Serif JP', sans-serif;
+    margin-top:0px;
+    font-weight: 100;
+}
+.question-message textarea{
+    height: 100px;
+    width:400px;
+}
+.submit{
+margin-top:30px;
+}
+.question{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+footer{
+    width:1280px;
+   height:200px;
+   background-color: skyblue;
+   display: flex;
+   justify-content: center; 
+  padding-top:130px;
+}
