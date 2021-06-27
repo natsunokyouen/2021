@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+html {
+    background: url(background.jpg);
+ }
+header{
+    width:1280px;
+    height:100px;
+    background-image:url(sea.jpg);
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+}
+
+.header-text{
+    float:left;
+    font-family: 'Noto Serif JP', sans-serif;
+    padding-left:15px;
+    margin-top:10px;
+}
+.header-text h1{
+    font-size:40px;
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: center;
+}
+.header-text h2{
+    font-size:15px;
+    margin-top:0px;
+}
+
+.header-contents {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.header-contents a{
+    font-size:20px;
+    text-decoration: none;
+    padding:30px 10px;
+    margin:10px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color:#360fc2;
+}           
+
+
+
+
+
+body{
+    margin:0;
+}
+
+
+.contents{
+    width:1280px;
+    margin-bottom:200px;
+}
+
+.contents h1 {
+    border-bottom: solid 3px skyblue;
+    position: relative;
+    width:850px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Noto Serif JP', sans-serif;
+
+}
+.contents h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #ffc778;
+    bottom: -3px;
+    width: 30%;
+}
+
+
+.gaigodai{
+   display: flex;
+   justify-content: center; 
+   text-align: center;
+   padding-top:20px;
+   margin-left:100px;
+}
+.gaigodai p{
+    width:540px;
+    line-height: 28px;
+    margin-top:80px;
+    padding-right:50px;
+}
+.gaigodai img{
+    margin-right:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+.gaigodai span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size:30px;
+}
+
+
+
+.ikashika{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-right:100px;
+}
+ .ikashika p{
+   width:540px;
+   line-height: 28px;
+   margin-top:100px;
+    padding-left:50px;
+}
+.ikashika img{
+    margin-left:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ .ikashika span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+     font-size:30px;
+}
+
+
+
+.toudai{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-left:100px;
+}
+ .toudai p{
+   width:540px;
+   line-height: 28px;
+   margin-top:80px;
+   padding-right:50px;
+
+}
+ .toudai img{
+    margin-right:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ .toudai span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+     font-size:30px;
+}
+
+
+
+ .dentudai{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-right:100px;
+}
+ .dentudai p{
+   width:540px;
+   line-height: 28px;
+   margin-top:80px;
+   padding-left:50px;
+
+}
+.dentudai img{
+    margin-left:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ .dentudai span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+     font-size:30px;
+}
+
+
+
+ .hitotubashi{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-left:100px;
+}
+ .hitotubashi p{
+   width:540px;
+   line-height: 28px;
+   margin-top:65px;
+   padding-right:50px;
+
+}
+   .hitotubashi img{
+    margin-right:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ 
+ .hitotubashi span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+     font-size:30px;
+}
+
+
+
+ .toukoudai{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-right:100px;
+}
+ .toukoudai p{
+   width:540px;
+   line-height: 28px;
+   margin-top:100px;
+   padding-left:50px;
+
+}
+.toukoudai img{
+    margin-left:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ .toukoudai span{
+    color:rgb(0, 80, 252);    
+    font-family: 'Noto Serif JP', sans-serif;
+     font-size:30px;
+}
+
+
+
+ .toritudai{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding-top:20px;
+    margin-left:100px;
+}
+ .toritudai p{
+   width:540px;
+    margin-top:100px;
+    line-height: 30px;
+    padding-right:50px;
+    font-size:15px;
+}
+.toritudai img{
+    margin-right:40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+ .toritudai span{
+     color:rgb(0, 80, 252);    
+     font-size:30px;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+
+ 
+
+footer{
+    width:1280px;
+   height:200px;
+   background-color: skyblue;
+   display: flex;
+   justify-content: center; 
+  padding-top:130px;
+}
