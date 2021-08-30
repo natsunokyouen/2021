@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+html {
+    background: url(background.jpg);
+ }
+header{
+    width:1280px;
+    height:100px;
+    background-image:url(sea.jpg);
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+}
+
+.header-text{
+    float:left;
+    font-family: 'Noto Serif JP', sans-serif;
+    padding-left:15px;
+    margin-top:10px;
+}
+.header-text h1{
+    font-size:40px;
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: center;
+}
+.header-text h2{
+    font-size:15px;
+    margin-top:0px;
+}
+
+.header-contents {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.header-contents a{
+    font-size:20px;
+    text-decoration: none;
+    padding:30px 10px;
+    margin:10px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color:#360fc2;
+}           
+
+body{
+    margin:0px;
+}
+.contents h1 {
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+    width:1000px;
+    margin-left: 100px;
+}
+.first h3{
+    width:1200px;
+    background: #7ec5ad; /*背景色*/
+    padding: 0.5em;/*文字周りの余白*/
+    color: white;/*文字を白に*/
+    border-radius: 0.5em;/*角の丸み*/
+    margin-left:20px;
+    font-size:30px;
+}
+
+footer{
+    width:1280px;
+   height:200px;
+   background-color: skyblue;
+   display: flex;
+   justify-content: center; 
+  padding-top:130px;
+}
